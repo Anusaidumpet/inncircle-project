@@ -1,0 +1,113 @@
+<!-- <h1 mat-dialog-title>Request Demo</h1> -->
+<!-- <div class="modal-dialog ">
+  <div class="modal-content w-100">
+    <div aria-label="close" class="d-flex justify-content-end p-2" 
+    style="cursor:pointer; size:1px;right:0;">
+    <button mat-icon-button class="close-button" [mat-dialog-close]="true">
+      <mat-icon class="close-icon">close</mat-icon>
+    </button>
+  </div>
+  </div>
+</div>
+<div> -->
+  
+  <div>
+<button mat-icon-button class="close-button" [mat-dialog-close]="true">
+  <mat-icon class="close-icon">close</mat-icon>
+</button></div>
+<div class="d-flex justify-content-center" style="border-bottom: none;">
+  <h3 class="font-large font-weight-dialog text-primary-rq">Request a
+    <span class="highlight-text font-weight-bold">Demo
+    </span>
+  </h3>
+</div>
+<div class="modal-body p-0">
+  <!-- MATTER FOR submit error -->
+  <form id="request_demo" class="w-100 ">
+    <div>
+      <div class="text-primary-rq font-weight-text px-3 py-2">
+        Please fill your details*
+      </div>
+      <div class="w-100 text-color px-3" style="max-height:62vh; overflow:auto;">
+      <div class="w-100 pb-2">
+        <div class="text-primary-rq font-weight-dialog px-1">Name*</div>
+        <input type="text" name="name" placeholder="Enter Name" 
+        required class="input-bea input-height p-2 w-100 h-100 ">
+      </div>
+      <div class="w-100 pb-2">
+        <div class="text-primary-rq-dialog px-1">
+          Business Email Address*
+        </div>
+        <input type="email" name="email" placeholder="Enter email address"required email class="input-bea input-height p-2 h-100 w-100">
+      </div>
+      <div class="w-100 pb-2">
+        <div class="text-primary-rq font-weight-dialog px-1">
+          Business Phone Number*
+        </div>
+        <div class="d-flex justify-content-start">
+          <input type="number" name="countrycode" placeholder="+1"required class="input-bea input-height h-100 p-2 " style="width:3.5rem;">  
+          <input type="number" name="phone" placeholder="Enter phone number"required email class="input-bea input-height p-2 h-100 w-100 ml-2">
+        </div>
+        <span class="text-danger">country code is required</span>
+        <div><span class="text-danger">Phone number is required</span>
+        </div>
+        
+      </div>
+      <div class="w-100 pb-2">
+        <div class="text-primary-rq-dialog px-1">
+          Business Organization*
+        </div>
+        <input type="text" name="org" placeholder="Enter organization name"required  class="input-bea input-height p-2 h-100 w-100">
+      </div>
+      <div class="w-100 pb-2">
+        <div class="text-primary-rq-dialog px-1">
+          Designation*
+        </div>
+        <input type="text" name="designation" placeholder="Enter Designation"required  class="input-bea input-height p-2 h-100 w-100">
+      </div>
+      <div class="w-100 pb-2">
+        <div class="text-primary-rq-dialog px-1">
+          Message
+        </div>
+        <input type="Paragraph" name="message" placeholder="Type your message here"
+        required class="input-bea input-height p-2 w-100"style="height:5rem">
+      </div>
+    </div>
+    <div class="mt-2 px-2" style="font-size:10px;">Please read the
+    <span class="text-secondary cursor-pointer">
+      <a><u>Privacy Statement for inncircles Arena</u></a>
+    </span>
+    to learn more
+  </div>
+  <div class="my-2 px-2">
+    <button type="submit" class="submit"selected (click)="generate()">
+      Submit
+    </button>
+  </div>
+  <div class="d-flex justify-content-center my-2">
+    <img class="size" src="assets\inncircles-arena-logo-tm.png" alt="inncircle-logo">
+  </div>
+    </div>
+    <div class="d-none">
+      <h6 class="text-primary-rq text-center p-3">Thank you for contacting us! Our team will reach out to you soon!</h6>
+    </div>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+  <!-- <mat-form-field>
+    <input matInput type="password" placeholder="Password" [(ngModel)]="password">
+  </mat-form-field> -->
+
+<!-- <div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="password" cdkFocusInitial>Submit</button>
+</div> -->
+<!--  -->
+
